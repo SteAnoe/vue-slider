@@ -42,12 +42,12 @@ createApp({
     prev(){
         this.currentImg--
         if (this.currentImg < 0){
-            this.currentImg = this.movie.immagini.length -1
+            this.currentImg = this.array.length -1
         }
     },
     next(){
         this.currentImg++
-        if (this.currentImg > this.movie.immagini.length -1){
+        if (this.currentImg > this.array.length -1){
             this.currentImg = 0
         }
     },
